@@ -1,11 +1,6 @@
-infinitive,tense,ingles,yo,tu,el_ella_usted,nosotros_-as,vosotros_-as,ellos/ellas/ustedes,time_attempted,times_correct,precentage
-ser,Present,I am,soy,eres,es,somos,sois,son,0,0,0
-ser,Present Perfect,I have been,he sido,has sido,ha sido,hemos sido,habéis sido,han sido,0,0,0
-ser,Imperfect,"I used to be, was",era,eras,era,éramos,erais,eran,0,0,0
-ser,Preterite,I was,fui,fuiste,fue,fuimos,fuisteis,fueron,0,0,0
-ser,Past Perfect - Pluperfect,I had been,había sido,habías sido,había sido,habíamos sido,habíais sido,habían sido,0,0,0
-ser,Future,I will be,seré,serás,será,seremos,seréis,serán,0,0,0
-ser,Future Perfect,I will have been,habré sido,habrás sido,habrá sido,habremos sido,habréis sido,habrán sido,0,0,0
-ser,Conditional,I would be,sería,serías,sería,seríamos,seríais,serían,0,0,0
-ser,Conditional Perfect,I would have been,habría sido,habrías sido,habría sido,habríamos sido,habríais sido,habrían sido,0,0,0
-ser,Preterite Perfect,I had been,hube sido,hubiste sido,hubo sido,hubimos sido,hubisteis sido,hubieron sido,0,0,0
+infinitive,tense,ingles,yo,tú,él,nosotros,vosotros,ellos,time_attempted,times_correct,percentage
+ser,Present,I am,soy,eres,es,somos,sois,son,3,3,1
+hablar,Present,"I speak, am speaking",hablo,hablas,habla,hablamos,habléis,hablan,1,1,1
+estar,Present,I am,estoy,estás,está,estamos,estáis,están,3,1,0.333333333
+tener,Present,"I have, am having",tengo,tienes,tiene,tenemos,tenéis,tienen,3,0,0
+hacer,Present,"I do, am doing",hago,haces,hace,hacemos,hacéis,hacen,4,2,0.5
