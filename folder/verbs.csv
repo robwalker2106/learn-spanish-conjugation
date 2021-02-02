@@ -1,6 +1,6 @@
 infinitive,tense,ingles,yo,tú,él,nosotros,vosotros,ellos,time_attempted,times_correct,percentage
-ser,Present,I am,soy,eres,es,somos,sois,son,3,3,1
-hablar,Present,"I speak, am speaking",hablo,hablas,habla,hablamos,habléis,hablan,1,1,1
-estar,Present,I am,estoy,estás,está,estamos,estáis,están,3,1,0.333333333
-tener,Present,"I have, am having",tengo,tienes,tiene,tenemos,tenéis,tienen,3,0,0
-hacer,Present,"I do, am doing",hago,haces,hace,hacemos,hacéis,hacen,4,2,0.5
+ser,Present,I am,soy,eres,es,somos,sois,son,3,3,1.0
+hablar,Present,"I speak, am speaking",hablo,hablas,habla,hablamos,habléis,hablan,1,1,1.0
+estar,Present,I am,estoy,estás,está,estamos,estáis,están,5,2,0.4
+tener,Present,"I have, am having",tengo,tienes,tiene,tenemos,tenéis,tienen,4,1,0.25
+hacer,Present,"I do, am doing",hago,haces,hace,hacemos,hacéis,hacen,6,4,0.6666666666666666

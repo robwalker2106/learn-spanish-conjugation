@@ -34,8 +34,8 @@ while show_screen:
     elif conjugate_verb.lower() == "si":
         verb, index = verbs.verb_challenge()
 
-    print(verb)
-    print(verbs.data)
+    # print(verb)
+    # print(verbs.data)
 
     all_correct = True
     # Conjugate verb for yo.
