@@ -10,9 +10,6 @@ INGLES_POSITION = (-3, 210)
 class Verbs:
     def __init__(self, data):
         self.data = data
-        # self.new_verbs = self.data[self.data.time_attempted == 0]
-        # self.good_verbs = self.data[self.data.percentage > 75]
-        # self.hard_verbs = self.data[self.data.percentage < 25]
         self.verb_tense_pf = self.data
         self.create_list()
         self.list_of_verbs = self.verb_tense_pf.values.tolist()
@@ -56,7 +53,7 @@ class Verbs:
             self.data.at[index, 'times_correct'] = self.correct
 
         self.data.at[index, 'percentage'] = self.correct / self.attempts
-        self.data.to_csv('verbs.csv', encoding='mac_roman', index=False)
+        self.data.to_csv('indicative_verbs.csv', encoding='mac_roman', index=False)
 
 
 

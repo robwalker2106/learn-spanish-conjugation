@@ -13,15 +13,23 @@ screen.tracer(0)
 sheet = Turtle(image)
 sheet_writer = SheetWriter()
 screen.update()
-verbs = Verbs(pd.read_csv('verbs.csv', encoding='mac_roman'))
 screen.listen()
 
-# def print_cood(x, y):
-#     print(x, y)
-#
-# screen.onscreenclick(print_cood)
-
 show_screen = True
+
+verb_mood = screen.textinput("Indicative/Subjunctive", "Do you want to study Indicative or Subjunctive verbs?")
+not_selected = True
+
+while not_selected:
+    if verb_mood.lower() == "indicative" or verb_mood.lower() == "i":
+        verbs = Verbs(pd.read_csv('indicative_verbs.csv', encoding='mac_roman'))
+        not_selected = False
+    elif verb_mood.lower() == "subjunctive" or verb_mood.lower() == "s":
+        verbs = Verbs(pd.read_csv('subjunctive_verbs.csv', encoding='mac_roman'))
+        not_selected = False
+    else:
+        verb_mood = screen.textinput("Indicative/Subjunctive", "Please select a valid choice. Indicative or Subjunctive?")
+
 
 while show_screen:
     conjugate_verb = screen.textinput("New Verb", "Do you want to conjugate a verb? (si,no)")
