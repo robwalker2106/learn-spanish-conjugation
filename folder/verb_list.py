@@ -1,4 +1,3 @@
-#import pandas as pd
 from turtle import Turtle
 from random import choice
 
@@ -8,10 +7,13 @@ INGLES_POSITION = (-3, 210)
 
 
 class Verbs:
-    def __init__(self, data):
+    def __init__(self, data, csv, amount):
         self.data = data
+        self.csv = csv
+        self.amount = amount
         self.verb_tense_pf = self.data
         self.create_list()
+        # TODO: Turn this into a dictionary
         self.list_of_verbs = self.verb_tense_pf.values.tolist()
         self.attempts = 0
         self.correct = 0
@@ -20,13 +22,12 @@ class Verbs:
     def create_list(self):
         weak_verbs_pd = self.data[self.data.percentage <= .50]
         print(len(weak_verbs_pd))
-        if len(weak_verbs_pd) < 3:
+        if len(weak_verbs_pd) < self.amount:
             weak_verbs_pd = self.data[self.data.percentage <= .75]
-        if len(weak_verbs_pd) < 3:
+        if len(weak_verbs_pd) < self.amount:
             self.verb_tense_pf = self.data[['infinitive', 'tense']]
         else:
             self.verb_tense_pf = weak_verbs_pd[['infinitive', 'tense']]
-
 
     def verb_challenge(self):
         verb = Turtle()
@@ -53,7 +54,7 @@ class Verbs:
             self.data.at[index, 'times_correct'] = self.correct
 
         self.data.at[index, 'percentage'] = self.correct / self.attempts
-        self.data.to_csv('indicative_verbs.csv', encoding='mac_roman', index=False)
+        self.data.to_csv(self.csv, encoding='mac_roman', index=False)
 
 
 

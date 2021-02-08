@@ -17,15 +17,18 @@ screen.listen()
 
 show_screen = True
 
+amount = int(screen.textinput("Number of Verbs to study.", "Enter the amount of verbs to study as an integer: "))
 verb_mood = screen.textinput("Indicative/Subjunctive", "Do you want to study Indicative or Subjunctive verbs?")
+indicative_csv = 'indicative_verbs.csv'
+subjunctive_csv = 'subjunctive_verbs.csv'
 not_selected = True
 
 while not_selected:
     if verb_mood.lower() == "indicative" or verb_mood.lower() == "i":
-        verbs = Verbs(pd.read_csv('indicative_verbs.csv', encoding='mac_roman'))
+        verbs = Verbs(pd.read_csv('indicative_verbs.csv', encoding='mac_roman'), indicative_csv, amount)
         not_selected = False
     elif verb_mood.lower() == "subjunctive" or verb_mood.lower() == "s":
-        verbs = Verbs(pd.read_csv('subjunctive_verbs.csv', encoding='mac_roman'))
+        verbs = Verbs(pd.read_csv('subjunctive_verbs.csv', encoding='mac_roman'), subjunctive_csv, amount)
         not_selected = False
     else:
         verb_mood = screen.textinput("Indicative/Subjunctive", "Please select a valid choice. Indicative or Subjunctive?")

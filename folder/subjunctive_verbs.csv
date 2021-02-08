@@ -1,14 +1,14 @@
 infinitive,tense,ingles,yo,tú,él,nosotros,vosotros,ellos,time_attempted,times_correct,percentage
-ser,Present,I am,sea,seas,sea,seamos,seáis,sean,0,0,0
-hablar,Present,"I speak, am speaking",hable,hables,hable,hablemos,habléis,hablen,0,0,0
-estar,Present,I am,esté,estés,esté,estemos,estéis,estén,0,0,0
-tener,Present,"I have, am having",tenga,tengas,tenga,tengamos,tengáis,tengan,0,0,0
-hacer,Present,"I do, am doing",haga,hagas,haga,hagamos,hagáis,hagan,0,0,0
-poder,Present,"I am able, can",pueda,puedas,pueda,podamos,podáis,puedan,0,0,0
-decir,Present,"I say, am saying",diga,digas,diga,digamos,digáis,digan,0,0,0
-ir,Present,"I go, am going",vaya,vayas,vaya,vayamos,vayáis,vayan,0,0,0
-ver,Present,"I see, am seeing",vea,veas,vea,veamos,veáis,vean,0,0,0
-dar,Present,"I give, am giving",dé,des,dé,demos,deis,den,0,0,0
-saber,Present,I know,sepa,sepas,sepa,sepamos,sepáis,sepan,0,0,0
-querer,Present,"I want, am wanting",quiera,quieras,quiera,queramos,queráis,quieran,0,0,0
-llegar,Present,"I arrive, am arriving",llegue,llegues,llegue,lleguemos,lleguéis,lleguen,0,0,0
+ser,Present,I am,sea,seas,sea,seamos,seáis,sean,0,0,0.0
+hablar,Present,"I speak, am speaking",hable,hables,hable,hablemos,habléis,hablen,0,0,0.0
+estar,Present,I am,esté,estés,esté,estemos,estéis,estén,0,0,0.0
+tener,Present,"I have, am having",tenga,tengas,tenga,tengamos,tengáis,tengan,0,0,0.0
+hacer,Present,"I do, am doing",haga,hagas,haga,hagamos,hagáis,hagan,0,0,0.0
+poder,Present,"I am able, can",pueda,puedas,pueda,podamos,podáis,puedan,0,0,0.0
+decir,Present,"I say, am saying",diga,digas,diga,digamos,digáis,digan,1,0,0.0
+ir,Present,"I go, am going",vaya,vayas,vaya,vayamos,vayáis,vayan,0,0,0.0
+ver,Present,"I see, am seeing",vea,veas,vea,veamos,veáis,vean,0,0,0.0
+dar,Present,"I give, am giving",dé,des,dé,demos,deis,den,0,0,0.0
+saber,Present,I know,sepa,sepas,sepa,sepamos,sepáis,sepan,0,0,0.0
+querer,Present,"I want, am wanting",quiera,quieras,quiera,queramos,queráis,quieran,0,0,0.0
+llegar,Present,"I arrive, am arriving",llegue,llegues,llegue,lleguemos,lleguéis,lleguen,0,0,0.0
